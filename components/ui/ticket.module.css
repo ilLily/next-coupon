@@ -1,0 +1,54 @@
+
+
+
+
+.ticket{
+    width: 440px;
+    height: 180px;
+    display: flex;
+}
+
+.left{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    width: 85%;
+    border-left: 2px dashed var(--bg);
+    padding: 10px 25px; 
+    
+}
+.left, .right{
+    background-color: var(--main);
+    color: var(--bg);
+    border-radius: 16px;
+    height: 100%;
+}
+
+.left_word{
+    transform: rotate(-90deg) translateY(-5px);
+    font-size: 36px;
+     font-family: var(--biorhyme);
+}
+.right_main{
+     font-family: var(--blackOpsOne);
+     /* line-height: 40px; */
+     /* border: 1px solid red; */
+}
+.moneysign, .off{
+    font-size: 40px;
+    /* border: 1px solid red; */
+}
+.amount{
+    font-size: 80px;
+    margin: 0 10px;
+   
+    /* border: 1px solid red; */
+}
+.detail{
+    font-size: 26px;
+    font-family: var(--biorhyme);
+    line-height: 30px;
+}
